@@ -1,5 +1,5 @@
 # Projeto Kafka
-
+Projeto de exemplo de utilização de comsumer e producer, para geração de mensagens no kafka.
 ##Pre-requisitos
 * java 1.8
 * spring boot 2.2.6
