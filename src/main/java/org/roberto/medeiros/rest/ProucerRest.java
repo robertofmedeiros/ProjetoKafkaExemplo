@@ -25,6 +25,7 @@ public class ProucerRest {
     @PostMapping(value = "/publish/noticia")
     public void sendNoticiaToKafkaTopic(@RequestBody Noticia noticia) throws JsonProcessingException {
 
+
         this.producer.sendNoticias(noticia);
     }
 }
