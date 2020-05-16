@@ -19,7 +19,7 @@ public class ProucerRest {
 
     @PostMapping(value = "/publish")
     public void sendMessageToKafkaTopic(@RequestParam("message") String message){
-
+        /**/
         this.producer.sendMessage(message);
     }
 
